@@ -5,6 +5,7 @@ header {
 }
 
 nav {
+  background-color:antiquewhite;
   display: flex;
   align-items: center;
   max-width: 1200px;
@@ -13,7 +14,7 @@ nav {
 }
 
 nav a {
-  color: #ffffff;
+  color:antiquewhite;
   text-decoration: none;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 14px;
@@ -38,17 +39,22 @@ nav a.active {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
 }
 
 h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
@@ -58,6 +64,7 @@ img {
     border: 10px solid rgb(248, 224, 248);
     border-radius: 180px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 body {
